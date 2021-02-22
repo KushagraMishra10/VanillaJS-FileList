@@ -1,0 +1,24 @@
+.display-inline {
+  display: inline-block;
+}
+.search-bar-container {
+  width: 60%;
+  color: lightgrey;
+}
+.search-input {
+  width: 80%;
+}
+.action-btn-container {
+  width: 39%;
+}
+.action-btn {
+  width: 24%;
+}
+.column-headers {
+  margin: 10px 0px;
+  padding: 10px 5px;
+  background-color: lightgrey;
+}
+.row {
+  border-bottom: 1px grey;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="view-container">
+      <div class="actions-container">
+        <div class="display-inline search-bar-container">
+          <input
+            type="text"
+            placeholder="Search"
+            id="search"
+            class="search-input"
+          />
+        </div>
+        <div class="display-inline action-btn-container">
+          <span class="action-btn display-inline">First</span>
+          <span class="action-btn display-inline">&#60;Previous</span>
+          <span class="action-btn display-inline">Next&#62;</span>
+          <span class="action-btn display-inline">Last</span>
+        </div>
+      </div>
+      <div id="headers" class="column-headers"></div>
+      <div id="rows" class="row-container"></div>
+      <script type="text/javascript" src="js/util.js"></script>
+      <script type="text/javascript" src="js/service.js"></script>
+      <script type="text/javascript" src="js/view.js"></script>
+    </div>
+  </body>
+</html>
